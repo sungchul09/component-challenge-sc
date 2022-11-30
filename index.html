@@ -4,11 +4,44 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
   <title>Document</title>
 </head>
 <body>
-  <h1>component-challenge</h1>
-  <a href="./custom-scrollbar/index.html">custom-scrollbar 2022.11.16</a>
-  <a href="./glowing-text/index.html">glowing-text 2022.11.23</a>
+  <div class="main-page">
+    <h1 class="main-page__title">component-challenge</h1>
+    <div class="main-page__list">
+      <a href="./custom-scrollbar/index.html">custom-scrollbar 2022.11.16</a>
+      <a href="./glowing-text/index.html">glowing-text 2022.11.23</a>
+      <a href="./clip-path-circle/index.html">clip-path-circle 2022.11.23</a>
+    </div>
+  </div>
 </body>
 </html>
+
+<style>
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page__title {
+  font-size: 64px;
+  margin: 50px 0px;
+}
+
+.main-page__list {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-page__list a:hover {
+  color: skyblue;
+}
+</style>
