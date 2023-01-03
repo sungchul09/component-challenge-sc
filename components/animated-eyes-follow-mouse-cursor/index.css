@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.temp, .left, .right {
+  color: white;
+  font-size: 20px;
+}
+
+.eyes {
+  width: 150px;
+  height: 150px;
+  background: white;
+  clip-path: circle();
+}
+
+.pupil {
+  background: rgb(255, 208, 0);
+  width: 50px;
+  height: 50px;
+  clip-path: circle();
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
