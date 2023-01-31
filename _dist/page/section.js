@@ -1,6 +1,6 @@
 import { BaseComponent } from '../layout/index.js';
-export class PageComponent extends BaseComponent {
+export class SectionComponent extends BaseComponent {
     constructor() {
-        super('<p>Wellcome page!</p>');
+        super('<div></div>');
     }
 }
