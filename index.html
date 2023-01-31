@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset.css">
+  <script type="module" src="./_dist/app.js" defer></script>
   <title>Document</title>
 </head>
+
 <body>
-  <div class="main-page">
-    <h1 class="main-page__title">component-challenge</h1>
-    <div class="main-page__list">
+  <div class="app">
+    <header class="header">
       <a href="/components/custom-scrollbar/index.html">custom-scrollbar 2022.11.16</a>
       <a href="/components/glowing-text/index.html">glowing-text 2022.11.23</a>
       <a href="/components/clip-path-circle/index.html">clip-path-circle 2022.11.23</a>
       <a href="/components/hover-effect-card/index.html">hover-effect-card 2023.01.14</a>
-    </div>
+    </header>
+    <section class="section">
+    </section>
+    <footer class="footer">
+      <p>seongcheol.yun</p>
+    </footer>
   </div>
 </body>
+
 </html>
 
 <style>
-.main-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-.main-page__title {
-  font-size: 64px;
-  margin: 50px 0px;
-}
+  .main-page__title {
+    font-size: 64px;
+    margin: 50px 0px;
+  }
 
-.main-page__list {
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
+  .main-page__list {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
 
-.main-page__list a:hover {
-  color: skyblue;
-}
+  .main-page__list a:hover {
+    color: skyblue;
+  }
 </style>
